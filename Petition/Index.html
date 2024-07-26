@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <link href="src/fakerecaptcha.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png">
+    <title>UpTheLanes</title>
+    <script>
+    </script>
+    <script src="src/fakerecaptcha.js"></script>
+</head>
+<body>
+    <div class="Top">
+        <div class="TopNav">
+            <img src="Logo.png" width="1.5%" height="1.5%" href="Index.html">
+            <a onclick="sign.showModal" class="TopNavButton">Sign up</a>
+        </div>
+    </div>
+
+    <div class="body1">
+        <h1 class="body1header">Goals</h1>
+        <a class="body1a">Our goal here at UpTheLanes, is to promote bicycle usage across Nz. We hope to do this by fixing bicycle lanes, creating new ones and creating a brighter tommorow. Doing this will work towards a top grade for my steam project but work toward SDG 11, Creating a healthy enviroment with sustainable cities.</a>
+        <img src="Trend.png" class="stonks">
+    </div>
+    <div class="body2">
+        <h1 class="body1header">Plan</h1>
+        <a class="body1a">As we do not have enough funding nor goverments approval we can not construct/execute these mayjor upgrades. But with YOUR help we can make a better Nz. </a>
+        <hr>
+        <button onclick="sign.showModal()" class="sign">Click me ></button>
+    </div>
+    <div></div>
+    <dialog id="sign" class="dialog1">
+        <button onclick="sign.close()" class="closeButton1">X</button>
+        <h1>Sign the petition</h1>
+        <form class="signup1">
+            <label>Full name:</label>
+            <input type="text" id="fname" class="fname"><hr class="space">
+            <label>Gender:</label>
+            <select id="gender">
+                <option></option>
+                <option>Male</option>
+                <option>Walmart bag</option>
+                <option>Other type of bag</option>
+                <option>Chair</option>
+                <option>Table</option>
+                <option>Dinosaur</option>
+                <option>Homosapien</option>
+                <option>Homo</option>
+                <option>Gymrat</option>
+                <option>Helicopter</option>
+                <option>Attack Helicopter</option>
+                <option>Car</option>
+                <option>Police</option>
+                <option>Skibidy toilet</option>
+                <option>Teacher</option>
+                <option>Squid</option>
+                <option>Fish</option>
+                <option>Bird</option>
+                <option>Livvy Dunne</option>
+                <option>Walrus</option>
+                <option>Gaming PC</option>
+                <option>Female</option>
+                <option>Pelican</option>
+                <option>Your mum</option>
+                <option>Britney Spears</option>
+                <option>Box</option>
+                <option>House</option>
+                <option>Car</option>
+                <option>Mobile phone</option>
+                <option>Laptop</option>
+                <option>Telephone</option>
+                <option>Dude</option>
+                <option>Skibidy sigma level 5 gyatt🤡</option>
+            </select><hr class="space">
+            <label>Email:</label>
+            <input type="text" id="email">
+            <label id="emailVerify">✅</label>
+            <hr class="space">
+        </form>
+    </dialog>
+</body>
+</html>
